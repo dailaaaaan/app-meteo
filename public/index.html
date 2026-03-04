@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>ProjFin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Alertes Meteorologiques</h1>
+
+<form id="formAlerta">
+    <input type="text" id="tipus" placeholder="Tipus" required>
+    <input type="text" id="nivell" placeholder="Nivell" required>
+    <input type="text" id="area" placeholder="Àrea" required>
+    <input type="text" id="descripcio" placeholder="Descripció" required>
+    <label>
+        Activa
+        <input type="checkbox" id="activa">
+    </label>
+    <button type="submit">Crear alerta</button>
+</form>
+
+<div id="alertesContainer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
