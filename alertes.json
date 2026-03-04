@@ -1,0 +1,8 @@
+{ 
+  "id":  "1", 
+  "tipus": "Vent",  
+  "nivell": "Taronja", 
+  "area": "Costa Brava", 
+  "descripcio": "Ràfegues superiors a 90km/h", 
+  "activa": true 
+} 
