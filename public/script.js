@@ -20,8 +20,8 @@ async function carregarAlertes() {
             <p><strong>Àrea:</strong> ${alerta.area}</p>
             <p>${alerta.descripcio}</p>
             <p><strong>Activa:</strong> ${alerta.activa}</p>
-            <button data-id="${alerta.id}" class="deleteBtn">Eliminar</button>
-            <button data-id="${alerta.id}" class="editBtn">Editar</button>
+            <button data-id="${alerta._id}" class="deleteBtn">Eliminar</button>
+            <button data-id="${alerta._id}" class="editBtn">Editar</button>
         `;
 
         container.appendChild(div);
